@@ -75,6 +75,12 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-eureka-server</artifactId>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.codehaus.sonar/sonar-maven3-plugin -->
+		<dependency>
+    			<groupId>org.codehaus.sonar</groupId>
+    			<artifactId>sonar-maven3-plugin</artifactId>
+    			<version>3.5.1</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
