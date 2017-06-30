@@ -97,14 +97,6 @@
 				</executions>
 			</plugin>
 			<plugin>
-                		<groupId>org.apache.maven.plugins</groupId>
-                		<artifactId>maven-surefire-plugin</artifactId>
-                		<configuration>    
-                  			<skipTests>${skip.tests}</skipTests>    
-                		</configuration>
-                		<version>2.10</version>
-            		</plugin>
-			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
 				<version>0.7.1.201405082137</version>
